@@ -1,4 +1,3 @@
-
 # FLAMES Relationship Predictor
 
 This Python program implements the popular "FLAMES" game, predicting the relationship between two names based on the number of unique characters remaining after common letters are removed.
