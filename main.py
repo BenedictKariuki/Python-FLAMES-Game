@@ -1,10 +1,16 @@
-
+"""
+Author: BENEDICT  KARIUKI
+Date: September 14, 2024
+Version: 1.0
+Description: This script removes common letters from two names and determines the
+relationship between two people using the FLAMES game logic.
+"""
 # function to remove common letters
 def remove_common(player1: str, player2: str) -> str:
     name1_list = list(player1)
     name2_list = list(player2)
     for i in name1_list[:]:
-        for j in name2_list:
+        for j in name2_list[:]:
             if i == j:
                 name1_list.remove(i)
                 name2_list.remove(j)
